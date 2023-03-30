@@ -125,7 +125,7 @@ def clonetags():
                         continue
                     if "system" in key and bu == "heating":
                      	continue
-                    ret[key] = metaOld[0][key]
+                    ret[key] = metaOld[0][key].
     		                     
 
 		getUrl = config['api']['meta'] + '/units/' + str(request.json['toUnitId']) +'/tagmeta?filter={"where":'+json.dumps(ret)+'}'
