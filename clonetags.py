@@ -56,7 +56,7 @@ def clonetags():
             continue
 
         url = config['api']['meta'] + '/tagmeta?filter={"where":{"dataTagId":"'+str(dataTagId_from)+'"}}'
-        metaBody = requests.get(url)
+        metaBody = requests.get(url) .
 		
 
         try:
